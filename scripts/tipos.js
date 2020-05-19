@@ -64,8 +64,3 @@ if (bool) {
 //tuple
 var tuple;
 tuple = ["Fabio", 10];
-
-
-//Cast
-//let var1 : any = "fabio";
-//let stringLength: number = (<string>var1).length;
