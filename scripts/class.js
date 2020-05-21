@@ -26,6 +26,7 @@ var Employee = /** @class */ (function (_super) {
     function Employee(name, salary) {
         var _this = _super.call(this, name) || this;
         _this.salary = 10;
+        _this.age = 0;
         return _this;
     }
     Employee.prototype.print = function () {
