@@ -1,8 +1,8 @@
-function print(val?: string): void {
+function print2(val?: string): void {
     console.log(val);
 }
 
-print("message here");
+print2("message here");
 
 function printOrNot(flag: boolean = false): void {
     let str = flag ? "flag is true" : "flag is false";

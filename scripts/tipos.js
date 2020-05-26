@@ -55,12 +55,12 @@ function isChecked() {
 //let
 var bool = false;
 if (bool) {
-    var i = void 0;
+    let i;
     for (i = 0; i < 3; i++) {
         console.log(i);
     }
 }
 //console.log(i); ==> Isso vai dar erro, pois o let faz com que a variável "i" funcione apenas dentro do escopo definido, no caso dentro do "if"
 //tuple
-var tuple;
+let tuple;
 tuple = ["Fabio", 10];
