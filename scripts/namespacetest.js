@@ -1,4 +1,7 @@
 "use strict";
+/// <reference path="Validation.ts">
+/// <reference path="UrlValidator.ts">
+/// <reference path="EmailValidator.ts">
 var EmailValidator = Validation.EmailValidator;
 var UrlValidator = Validation.UrlValidator;
 var emailExamples = ["sdf@", "sdf@fdsfd", "faironsp@gmail.com"];
@@ -8,7 +11,4 @@ emailExamples.forEach(function (email) {
 });
 urlExamples.forEach(function (url) {
     console.log(url + "   " + new UrlValidator().isValid(url));
-});
-urlExamples.forEach(function (url) {
-    console.log(url + "   " + new Validation.UrlValidator().isValid(url));
 });
