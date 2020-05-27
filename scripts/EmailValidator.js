@@ -1,4 +1,3 @@
-"use strict";
 var Validation;
 (function (Validation) {
     let emailRegex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
@@ -9,3 +8,4 @@ var Validation;
     }
     Validation.EmailValidator = EmailValidator;
 })(Validation || (Validation = {}));
+//# sourceMappingURL=EmailValidator.js.map

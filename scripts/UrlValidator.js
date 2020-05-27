@@ -1,4 +1,3 @@
-"use strict";
 var Validation;
 (function (Validation) {
     let urlRegex = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
@@ -9,3 +8,4 @@ var Validation;
     }
     Validation.UrlValidator = UrlValidator;
 })(Validation || (Validation = {}));
+//# sourceMappingURL=URLValidator.js.map
